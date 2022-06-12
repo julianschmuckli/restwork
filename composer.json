@@ -18,5 +18,10 @@
             "role": "Developer"
         }
     ],
-    "require": {}
+    "require": {},
+    "scripts": {
+        "post-package-install": [
+            "Julianschmuckli\\Restwork\\Structure::setup"
+        ]
+    }
 }

@@ -1,4 +1,5 @@
 <?php
+require_once "./vendor/autoload.php";
 /**
  * Auto import all the custom files, which are not part of the _framework.
  */
