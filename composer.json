@@ -1,0 +1,22 @@
+{
+    "name": "julianschmuckli/restwork",
+    "version": "0.0.1",
+    "keywords": ["rest", "api", "restwork", "framework"],
+    "description": "Restwork is a PHP framework to design a RESTful API service with minimum effort.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Julianschmuckli\\Restwork\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Julian Schmuckli",
+            "email": "julian@schmuckli.net",
+            "homepage": "https://schmuckli.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {}
+}
