@@ -4,6 +4,9 @@ use Julianschmuckli\Restwork\{ Helper\HttpResponse, Helper\HttpMethod, Helper\Va
 use Julianschmuckli\Restwork\Interfaces\Service;
 use \Exception;
 
+/**
+ * The dispatcher handles every request from the client and forwards it to the service and finally the route.
+ */
 class Dispatcher
 {
     /**
