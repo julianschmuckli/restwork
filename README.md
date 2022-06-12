@@ -10,3 +10,6 @@ brew install composer
 # Install the RESTwork with the following command.
 composer require julianschmuckli/restwork
 ```
+
+## Documentation
+In the /docs folder, you can find the folder structure and their given roles in the framework.

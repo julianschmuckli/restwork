@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([\w-]+)/?$ index.php?service=$1 [L,QSA]
+RewriteRule ^([\w-]+)/([\w-]+)/?$ index.php?service=$1&route=$2 [L,QSA]

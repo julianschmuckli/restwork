@@ -1,6 +1,7 @@
 <?php
 namespace Julianschmuckli\Restwork;
 use Julianschmuckli\Restwork\{ Helper\HttpResponse, Helper\HttpMethod, Helper\Validation, Services\ErrorService};
+use Julianschmuckli\Restwork\Interfaces\Service;
 use \Exception;
 
 class Dispatcher

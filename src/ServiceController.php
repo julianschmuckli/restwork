@@ -1,6 +1,7 @@
 <?php
 namespace Julianschmuckli\Restwork;
-use Julianschmuckli\Restwork\{Helper\HttpResponse, Helper\HttpMethod, Helper\DB};
+use Julianschmuckli\Restwork\Helper\{HttpResponse, HttpMethod, DB};
+use Julianschmuckli\Restwork\Interfaces\Route;
 
 class ServiceController
 {
