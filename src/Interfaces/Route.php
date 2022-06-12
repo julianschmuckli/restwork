@@ -1,5 +1,6 @@
 <?php
-namespace Julianschmuckli\Restwork;
+namespace Julianschmuckli\Restwork\Interfaces;
+use Julianschmuckli\Restwork\Helper\HttpResponse;
 
 interface Route
 {

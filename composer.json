@@ -1,6 +1,6 @@
 {
     "name": "julianschmuckli/restwork",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "keywords": ["rest", "api", "restwork", "framework"],
     "description": "RESTwork is a PHP framework to design a RESTful API service with minimum effort.",
     "type": "library",
@@ -20,8 +20,11 @@
     ],
     "require": {},
     "scripts": {
-        "post-package-install": [
-            "Julianschmuckli\\Restwork\\Structure::setup"
+        "post-install-cmd": [
+            "Julianschmuckli\\Restwork\\Setup\\Structure::setup"
+        ],
+        "test_autoload": [
+            "composer dump-autoload -o"
         ]
     }
 }

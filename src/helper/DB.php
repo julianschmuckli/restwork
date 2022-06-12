@@ -1,5 +1,5 @@
 <?php
-namespace Julianschmuckli\Restwork;
+namespace Julianschmuckli\Restwork\Helper;
 use \PDO;
 
 class DB

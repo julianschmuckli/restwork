@@ -1,5 +1,7 @@
 <?php
-namespace Julianschmuckli\Restwork;
+namespace Julianschmuckli\Restwork\Services;
+use Julianschmuckli\Restwork\Helper\HttpResponse;
+use Julianschmuckli\Restwork\Interfaces\Service;
 
 class ErrorService implements Service
 {
