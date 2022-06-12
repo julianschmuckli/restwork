@@ -67,7 +67,7 @@ class Dispatcher
     private function getService($serviceName): Service
     {
         foreach (get_declared_classes() as $className) {
-            if (in_array('Service', class_implements($className))) {
+            if (in_array('Julianschmuckli\Restwork\Interfaces\Service', class_implements($className))) {
                 if (strtolower($serviceName) == strtolower($className)) {
                     return new $className();
                 }

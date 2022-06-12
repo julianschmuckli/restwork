@@ -13,7 +13,7 @@ class ServiceController
      */
     protected final function registerRoute(String $routeName, HttpMethod $method, String $routeClassName): bool
     {
-        if (class_exists($routeClassName) && in_array("Route", class_implements($routeClassName))) {
+        if (class_exists($routeClassName) && in_array("Julianschmuckli\Restwork\Interfaces\Route", class_implements($routeClassName))) {
             $route = array(
                 "name" => $routeName,
                 "method" => $method,
