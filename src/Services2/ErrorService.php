@@ -3,6 +3,9 @@ namespace Julianschmuckli\Restwork\Services;
 use Julianschmuckli\Restwork\Helper\HttpResponse;
 use Julianschmuckli\Restwork\Interfaces\Service;
 
+/**
+ * The default error service.
+ */
 class ErrorService implements Service
 {
     private $status, $message;
