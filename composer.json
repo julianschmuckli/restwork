@@ -1,6 +1,6 @@
 {
     "name": "julianschmuckli/restwork",
-    "version": "0.0.7",
+    "version": "0.1.0",
     "keywords": ["rest", "api", "restwork", "framework", "restful"],
     "homepage": "https://github.com/julianschmuckli/restwork",
     "description": "RESTwork is a PHP framework to design a RESTful API service with minimum effort.",
