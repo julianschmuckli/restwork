@@ -1,5 +1,6 @@
-# Documentation
-This is the space of the documentation for RESTwork.
+# RESTwork
+Welcome to the documentation of RESTwork.
+You will find all the information about the framework on this page.
 
 ## Setup
 - [Get started](./setup/Get_started.md)
