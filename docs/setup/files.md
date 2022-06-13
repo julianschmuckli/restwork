@@ -79,6 +79,7 @@ function rsearch($folder, $regPattern) {
 This file is specific for Apache web server and rewrites the URLs of the framework.
 
 > If you are using another web server like nginx, please reproduce this code. And if you would like, create a pull request with this new configuration file.
+
 ```
 RewriteEngine On
 
