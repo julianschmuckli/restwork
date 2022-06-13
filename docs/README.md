@@ -4,6 +4,7 @@ You will find all the information about the framework on this page.
 
 ## Setup
 - [Get started](./setup/getstarted.md)
+- [Important files](./setup/files.md)
 
 ## Objects
 - [DAO (Data Access Objects)](./objects/DAO.md)
