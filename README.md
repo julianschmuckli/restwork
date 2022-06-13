@@ -6,7 +6,7 @@ You need the following prerequisites to use RESTwork.
 - PHP >= 8.0
 - Composer
 
-If you not have the composer installed yet on macOS:
+If you do not have the composer installed yet on macOS:
 ```bash
 brew install composer
 ```

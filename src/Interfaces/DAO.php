@@ -7,5 +7,5 @@ interface DAO
     /**
      * Provides the database object to the DAO.
      */
-    public function __construct(DB $db);
+    public function __construct(?DB $db);
 }
