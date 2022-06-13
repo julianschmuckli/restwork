@@ -9,7 +9,7 @@ You need the following prerequisites to use RESTwork.
 - Composer
 
 ## Get started
-To start, go to the "Get started" page or [visit the sample project](https://github.com/julianschmuckli/restwork_example).
+To start, go to the [Get started](https://github.com/julianschmuckli/restwork_example/setup/getstarted.html) page or [visit the sample project](https://github.com/julianschmuckli/restwork_example).
 
 ## Documentation
 You can find the complete documentation of this project [here](https://julianschmuckli.github.io/restwork/).

@@ -44,3 +44,5 @@ Append the following folders and files to your root:
   composer.lock
 + index.php
 ```
+
+As you saw in the folder structure, there are some files, you have to manually create in your project. You can view them on [this page](./files.md).
