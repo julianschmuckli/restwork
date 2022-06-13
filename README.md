@@ -13,7 +13,7 @@ brew install composer
 or download it directly via the website [getcomposer.org](https://getcomposer.org/)
 
 ## Installation
-Create a new project and run the following command with the composer to install the RESTwork.
+Create a new project and run the following command with the composer to install the "RESTwork".
 
 ```bash
 composer require julianschmuckli/restwork
@@ -48,3 +48,6 @@ Append the following folders and files to your root:
 
 ## Documentation
 In the /docs folder, you can find the folder structure and their given roles in the framework.
+
+## Example
+You can find an example project here: [github.com/julianschmuckli/restwork_example](https://github.com/julianschmuckli/restwork_example)
