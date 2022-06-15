@@ -29,6 +29,7 @@ class ServiceController
 
     /**
      * Sets the database for this service.
+     * @param {DB} $database The database instance.
      */
     protected final function setDatabase(DB $database): void
     {
@@ -37,6 +38,7 @@ class ServiceController
 
     /**
      * Returns the database for this service.
+     * @return {DB} The database instance, where the PDO is contained.
      */
     public final function getDatabase(): DB
     {

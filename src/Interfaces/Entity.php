@@ -33,6 +33,12 @@ abstract class Entity
      */
     public abstract function saveToDB(DB $db): ?object;
 
+    /**
+     * Fetches a single record from the database from the given $this->id.
+     * @param {DB} $db The database instance.
+     * @param {string} $tablename The tablename, where the entry with the id is located.
+     * @return {boolean|array} Returns false, when no entry was found, otherwise an associative array will be returned.
+     */
     protected function _fetchFromId(DB $db, string $tablename)
     {
         $fetch = $db->getConnection()->prepare("SELECT * FROM " . $tablename . " WHERE id = :id");
@@ -47,6 +53,11 @@ abstract class Entity
         return $data;
     }
 
+    /**
+     * @deprecated
+     * Returns the id of the entity
+     * @return {int} The id of the entity.
+     */
     public function getId(): int
     {
         return $this->id;

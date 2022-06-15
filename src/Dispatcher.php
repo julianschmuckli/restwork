@@ -67,6 +67,9 @@ class Dispatcher
         }
     }
 
+    /**
+     * Fetches the service from the given name and makes an instance out of it.
+     */
     private function getService($serviceName): Service
     {
         foreach (get_declared_classes() as $className) {
